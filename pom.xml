@@ -5,9 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>FxDice2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>FxDice2</name>
+=======
+    <artifactId>FxDice</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>FxDice</name>
+>>>>>>> c7cbb9ea7d9cecea4eee573dd15c8e1c2d138a84
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +66,11 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
+<<<<<<< HEAD
                             <mainClass>com.example.fxdice2/com.example.fxdice2.HelloApplication</mainClass>
+=======
+                            <mainClass>com.example.fxdice/com.example.fxdice.HelloApplication</mainClass>
+>>>>>>> c7cbb9ea7d9cecea4eee573dd15c8e1c2d138a84
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
